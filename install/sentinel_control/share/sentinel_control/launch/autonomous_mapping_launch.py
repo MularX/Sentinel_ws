@@ -1,0 +1,1 @@
+/home/maciej/Sentinel_ws/build/sentinel_control/launch/autonomous_mapping_launch.py

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sentinel-control
+Version: 0.0.1
+Summary: Sentinel control package
+Maintainer: maciej
+Maintainer-email: maciekmularczyk@op.pl
+License: Apache-2.0

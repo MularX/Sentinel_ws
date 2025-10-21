@@ -1,0 +1,1 @@
+/home/maciej/Sentinel_ws/build/Sentinel/ament_cmake_core/SentinelConfig.cmake

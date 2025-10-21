@@ -1,0 +1,21 @@
+[3.680s] Invoking command in '/home/maciej/Sentinel_ws/build/sentinel_control': PYTHONPATH=/home/maciej/Sentinel_ws/build/sentinel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maciej/Sentinel_ws/install/sentinel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maciej/Sentinel_ws/build/sentinel_control/build --no-deps symlink_data
+[4.665s] running develop
+[5.315s] running egg_info
+[5.358s] writing sentinel_control.egg-info/PKG-INFO
+[5.358s] writing dependency_links to sentinel_control.egg-info/dependency_links.txt
+[5.360s] writing entry points to sentinel_control.egg-info/entry_points.txt
+[5.360s] writing requirements to sentinel_control.egg-info/requires.txt
+[5.361s] writing top-level names to sentinel_control.egg-info/top_level.txt
+[5.475s] reading manifest file 'sentinel_control.egg-info/SOURCES.txt'
+[5.478s] writing manifest file 'sentinel_control.egg-info/SOURCES.txt'
+[5.526s] running build_ext
+[5.528s] Creating /home/maciej/Sentinel_ws/install/sentinel_control/lib/python3.10/site-packages/sentinel-control.egg-link (link to .)
+[5.530s] Installing map_obstacles script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+[5.532s] Installing navigate_bt script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+[5.532s] Installing navigate_bt_fast script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+[5.533s] Installing path_planner script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+[5.534s] Installing path_planner_single script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+[5.535s] 
+[5.536s] Installed /home/maciej/Sentinel_ws/build/sentinel_control
+[5.536s] running symlink_data
+[5.715s] Invoked command in '/home/maciej/Sentinel_ws/build/sentinel_control' returned '0': PYTHONPATH=/home/maciej/Sentinel_ws/build/sentinel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maciej/Sentinel_ws/install/sentinel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maciej/Sentinel_ws/build/sentinel_control/build --no-deps symlink_data

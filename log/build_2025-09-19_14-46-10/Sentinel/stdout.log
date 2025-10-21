@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/home/maciej/ros2_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/maciej/Sentinel_ws/build/Sentinel
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/1bot.rviz
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/ball_tracker_params_robot.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/ball_tracker_params_sim.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/drive_bot.rviz
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/empty.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/joystick.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/main.rviz
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/map.rviz
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/mapper_params_online_async.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/my_controllers.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/nav2_params.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/slamtoolbox.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/twist_mux.yaml
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/view_bot.rviz
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/1robot.urdf.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/1robot_core.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/1robot_core_oldversion.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/camera.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/inertial_macros.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/lidar.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/my_ros2_control.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot.urdf.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot_core copy.OG.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot_core.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot_core_ver_mm.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/roomba.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/ros2_control.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/ros2_mm_control copy.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/ros2_mm_control.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave2_bot.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave3_bot.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave_bot.urdf.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave_bot.xacro
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/1launch.launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/Autonomous_mappning_launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/ball_tracker.launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/camera.launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/joystick.launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/launch_robot.launch copy.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/launch_robot.launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/localization_launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/navigation_launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/online_async_launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/rplidar.launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/rsp.launch.py
+-- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/wave_bot.launch.py

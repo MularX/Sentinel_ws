@@ -1,0 +1,4 @@
+source;share/Sentinel/local_setup.bash
+source;share/Sentinel/local_setup.dsv
+source;share/Sentinel/local_setup.sh
+source;share/Sentinel/local_setup.zsh

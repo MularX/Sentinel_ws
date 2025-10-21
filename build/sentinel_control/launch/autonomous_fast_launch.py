@@ -1,0 +1,1 @@
+/home/maciej/Sentinel_ws/src/sentinel_control/launch/autonomous_fast_launch.py

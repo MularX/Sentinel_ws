@@ -1,0 +1,9 @@
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/uninstall.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/Sentinel_uninstall.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/test.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/edit_cache.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/rebuild_cache.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/list_install_components.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/install.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/install/local.dir
+/home/maciej/Sentinel_ws/build/Sentinel/CMakeFiles/install/strip.dir

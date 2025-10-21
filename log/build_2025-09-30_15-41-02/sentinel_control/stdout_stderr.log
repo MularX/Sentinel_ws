@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing sentinel_control.egg-info/PKG-INFO
+writing dependency_links to sentinel_control.egg-info/dependency_links.txt
+writing entry points to sentinel_control.egg-info/entry_points.txt
+writing requirements to sentinel_control.egg-info/requires.txt
+writing top-level names to sentinel_control.egg-info/top_level.txt
+reading manifest file 'sentinel_control.egg-info/SOURCES.txt'
+writing manifest file 'sentinel_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maciej/Sentinel_ws/install/sentinel_control/lib/python3.10/site-packages/sentinel-control.egg-link (link to .)
+Installing map_obstacles script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+Installing map_obstacles_fast script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+Installing navigate_bt script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+Installing navigate_bt_fast script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+Installing path_planner script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+Installing path_planner_grey script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+Installing path_planner_single script to /home/maciej/Sentinel_ws/install/sentinel_control/lib/sentinel_control
+
+Installed /home/maciej/Sentinel_ws/build/sentinel_control
+running symlink_data
+symbolically linking /home/maciej/Sentinel_ws/build/sentinel_control/launch/autonomous_fast_launch.py -> /home/maciej/Sentinel_ws/install/sentinel_control/share/sentinel_control/launch

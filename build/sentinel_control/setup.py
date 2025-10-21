@@ -1,0 +1,1 @@
+/home/maciej/Sentinel_ws/src/sentinel_control/setup.py

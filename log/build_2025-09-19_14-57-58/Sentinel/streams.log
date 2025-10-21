@@ -1,0 +1,67 @@
+[0.047s] Invoking command in '/home/maciej/Sentinel_ws/build/Sentinel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maciej/Sentinel_ws/install/sentinel_control:/home/maciej/ros2_ws/install/webots_ros2:/home/maciej/ros2_ws/install/webots_ros2_universal_robot:/home/maciej/ros2_ws/install/webots_ros2_turtlebot:/home/maciej/ros2_ws/install/webots_ros2_tiago:/home/maciej/ros2_ws/install/webots_ros2_tests:/home/maciej/ros2_ws/install/webots_ros2_tesla:/home/maciej/ros2_ws/install/webots_ros2_mavic:/home/maciej/ros2_ws/install/webots_ros2_epuck:/home/maciej/ros2_ws/install/topic_monitor:/home/maciej/ros2_ws/install/self_balancing_robot:/home/maciej/ros2_ws/install/quality_of_service_demo_py:/home/maciej/ros2_ws/install/nav2_simple_commander:/home/maciej/ros2_ws/install/lifecycle_py:/home/maciej/ros2_ws/install/joy_tester:/home/maciej/ros2_ws/install/demo_nodes_py:/home/maciej/ros2_ws/install/action_tutorials_py:/home/maciej/Sim/MecHaRo-Lab_ROSBot2Pro/ws_ros2_husarion/install/webots_ros2_husarion:/opt/ros/humble /usr/bin/cmake --build /home/maciej/Sentinel_ws/build/Sentinel -- -j8 -l8
+[0.455s] Invoked command in '/home/maciej/Sentinel_ws/build/Sentinel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maciej/Sentinel_ws/install/sentinel_control:/home/maciej/ros2_ws/install/webots_ros2:/home/maciej/ros2_ws/install/webots_ros2_universal_robot:/home/maciej/ros2_ws/install/webots_ros2_turtlebot:/home/maciej/ros2_ws/install/webots_ros2_tiago:/home/maciej/ros2_ws/install/webots_ros2_tests:/home/maciej/ros2_ws/install/webots_ros2_tesla:/home/maciej/ros2_ws/install/webots_ros2_mavic:/home/maciej/ros2_ws/install/webots_ros2_epuck:/home/maciej/ros2_ws/install/topic_monitor:/home/maciej/ros2_ws/install/self_balancing_robot:/home/maciej/ros2_ws/install/quality_of_service_demo_py:/home/maciej/ros2_ws/install/nav2_simple_commander:/home/maciej/ros2_ws/install/lifecycle_py:/home/maciej/ros2_ws/install/joy_tester:/home/maciej/ros2_ws/install/demo_nodes_py:/home/maciej/ros2_ws/install/action_tutorials_py:/home/maciej/Sim/MecHaRo-Lab_ROSBot2Pro/ws_ros2_husarion/install/webots_ros2_husarion:/opt/ros/humble /usr/bin/cmake --build /home/maciej/Sentinel_ws/build/Sentinel -- -j8 -l8
+[0.487s] Invoking command in '/home/maciej/Sentinel_ws/build/Sentinel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maciej/Sentinel_ws/install/sentinel_control:/home/maciej/ros2_ws/install/webots_ros2:/home/maciej/ros2_ws/install/webots_ros2_universal_robot:/home/maciej/ros2_ws/install/webots_ros2_turtlebot:/home/maciej/ros2_ws/install/webots_ros2_tiago:/home/maciej/ros2_ws/install/webots_ros2_tests:/home/maciej/ros2_ws/install/webots_ros2_tesla:/home/maciej/ros2_ws/install/webots_ros2_mavic:/home/maciej/ros2_ws/install/webots_ros2_epuck:/home/maciej/ros2_ws/install/topic_monitor:/home/maciej/ros2_ws/install/self_balancing_robot:/home/maciej/ros2_ws/install/quality_of_service_demo_py:/home/maciej/ros2_ws/install/nav2_simple_commander:/home/maciej/ros2_ws/install/lifecycle_py:/home/maciej/ros2_ws/install/joy_tester:/home/maciej/ros2_ws/install/demo_nodes_py:/home/maciej/ros2_ws/install/action_tutorials_py:/home/maciej/Sim/MecHaRo-Lab_ROSBot2Pro/ws_ros2_husarion/install/webots_ros2_husarion:/opt/ros/humble /usr/bin/cmake --install /home/maciej/Sentinel_ws/build/Sentinel
+[0.512s] -- Install configuration: ""
+[0.513s] -- Execute custom install script
+[0.513s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/1bot.rviz
+[0.513s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/ball_tracker_params_robot.yaml
+[0.514s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/ball_tracker_params_sim.yaml
+[0.514s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/drive_bot.rviz
+[0.514s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/empty.yaml
+[0.514s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/joystick.yaml
+[0.514s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/main.rviz
+[0.515s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/map.rviz
+[0.515s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/mapper_params_online_async.yaml
+[0.515s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/my_controllers.yaml
+[0.515s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/nav2_params.yaml
+[0.515s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/slamtoolbox.yaml
+[0.515s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/twist_mux.yaml
+[0.515s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/config/view_bot.rviz
+[0.516s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/1robot.urdf.xacro
+[0.516s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/1robot_core.xacro
+[0.516s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/1robot_core_oldversion.xacro
+[0.517s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/camera.xacro
+[0.517s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/inertial_macros.xacro
+[0.517s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/lidar.xacro
+[0.517s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/my_ros2_control.xacro
+[0.518s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot.urdf.xacro
+[0.518s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot_core copy.OG.xacro
+[0.518s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot_core.xacro
+[0.518s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/robot_core_ver_mm.xacro
+[0.518s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/roomba.xacro
+[0.518s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/ros2_control.xacro
+[0.518s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/ros2_mm_control copy.xacro
+[0.519s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/ros2_mm_control.xacro
+[0.519s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave2_bot.xacro
+[0.519s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave3_bot.xacro
+[0.519s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave_bot.urdf.xacro
+[0.519s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/description/wave_bot.xacro
+[0.520s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/1launch.launch.py
+[0.520s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/Autonomous_mappning_launch.py
+[0.521s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/ball_tracker.launch.py
+[0.521s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/camera.launch.py
+[0.521s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/joystick.launch.py
+[0.521s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/launch_robot.launch copy.py
+[0.521s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/launch_robot.launch.py
+[0.521s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/localization_launch.py
+[0.521s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/navigation_launch.py
+[0.522s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/online_async_launch.py
+[0.522s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/rplidar.launch.py
+[0.522s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/rsp.launch.py
+[0.522s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/launch/wave_bot.launch.py
+[0.523s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/ament_index/resource_index/package_run_dependencies/Sentinel
+[0.523s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/ament_index/resource_index/parent_prefix_path/Sentinel
+[0.523s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/environment/ament_prefix_path.sh
+[0.523s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/environment/ament_prefix_path.dsv
+[0.524s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/environment/path.sh
+[0.524s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/environment/path.dsv
+[0.524s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/local_setup.bash
+[0.524s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/local_setup.sh
+[0.524s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/local_setup.zsh
+[0.525s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/local_setup.dsv
+[0.525s] -- Symlinking: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/package.dsv
+[0.549s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/ament_index/resource_index/packages/Sentinel
+[0.549s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/cmake/SentinelConfig.cmake
+[0.549s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/cmake/SentinelConfig-version.cmake
+[0.549s] -- Up-to-date symlink: /home/maciej/Sentinel_ws/install/Sentinel/share/Sentinel/package.xml
+[0.555s] Invoked command in '/home/maciej/Sentinel_ws/build/Sentinel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maciej/Sentinel_ws/install/sentinel_control:/home/maciej/ros2_ws/install/webots_ros2:/home/maciej/ros2_ws/install/webots_ros2_universal_robot:/home/maciej/ros2_ws/install/webots_ros2_turtlebot:/home/maciej/ros2_ws/install/webots_ros2_tiago:/home/maciej/ros2_ws/install/webots_ros2_tests:/home/maciej/ros2_ws/install/webots_ros2_tesla:/home/maciej/ros2_ws/install/webots_ros2_mavic:/home/maciej/ros2_ws/install/webots_ros2_epuck:/home/maciej/ros2_ws/install/topic_monitor:/home/maciej/ros2_ws/install/self_balancing_robot:/home/maciej/ros2_ws/install/quality_of_service_demo_py:/home/maciej/ros2_ws/install/nav2_simple_commander:/home/maciej/ros2_ws/install/lifecycle_py:/home/maciej/ros2_ws/install/joy_tester:/home/maciej/ros2_ws/install/demo_nodes_py:/home/maciej/ros2_ws/install/action_tutorials_py:/home/maciej/Sim/MecHaRo-Lab_ROSBot2Pro/ws_ros2_husarion/install/webots_ros2_husarion:/opt/ros/humble /usr/bin/cmake --install /home/maciej/Sentinel_ws/build/Sentinel
