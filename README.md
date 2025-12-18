@@ -37,7 +37,7 @@ sudo apt update && sudo apt install -y \
 
 ---
 
-## 🍓 Raspberry Pi (Hardware)
+##  Raspberry Pi (Hardware)
 *Komendy uruchamiane bezpośrednio na robocie (SSH: `ssh -Y user@ip`).*
 **Repozytorium sterowników:** [Motor_control](https://github.com/MularX/Motor_control)
 
@@ -62,7 +62,7 @@ sudo apt update && sudo apt install -y \
 
 ---
 
-## 💻 Sentinel Workspace (PC)
+##  Sentinel Workspace (PC)
 Główne repozytorium: [Sentinel_ws](https://github.com/MularX/Sentinel_ws/tree/main)
 
 ### Budowanie i start systemu:
@@ -82,7 +82,7 @@ ros2 launch sentinel launch_robot.launch.py
 
 ---
 
-## 🗺️ SLAM i Nawigacja
+##  SLAM i Nawigacja
 
 ### Tworzenie i zapisywanie mapy
 1.  **Uruchomienie SLAM:**
@@ -114,5 +114,4 @@ Aby wczytać mapę i uruchomić nawigację:
 
 > **💡 Konfiguracja RViz:** Ustaw `Fixed Frame` na `/map`. W ustawieniach tematu `/map` zmień parametr `Durability` na **Transient Local**, aby dane mapy zostały poprawnie wyświetlone.
 
----
-*Projekt Sentinel – 2025*
+
