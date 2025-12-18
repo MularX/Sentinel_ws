@@ -1,6 +1,3 @@
-# Sentinel Workspace 🤖
-
-
 
 ---
 
