@@ -1,73 +1,121 @@
-# Sentinel_ws - Workspace ROS 2 dla robota Sentinel
+# Sentinel Workspace 🤖
 
-Workspace ROS 2 dedykowany dla robota mobilnego **Sentinel** (ROS 2 Humble).
 
-## Tworzenie workspace
+
+---
+
+## Instalacja i Konfiguracja
+
+### 1. Tworzenie Workspace
+Otwórz terminal i przygotuj strukturę katalogów:
 
 ```bash
 mkdir -p ros2_ws/src
 cd ros2_ws
 colcon build --symlink-install
 source install/setup.bash
-Pakiety systemowe ROS 2 Humble znajdują się w /opt/ros/humble.
-Automatyczne sourcowanie ROS 2
-Bashsource /opt/ros/humble/setup.bash
-Aby sourcować automatycznie przy każdym uruchomieniu terminala:
-Bashnano ~/.bashrc
-Dodaj na końcu pliku:
-Bashsource /opt/ros/humble/setup.bash
-Instalacja zależności
-Bashsudo apt install -y python3-colcon-common-extensions python3-rosdep git
-Navigation2 i SLAM
-Bashsudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
-sudo apt install ros-humble-slam-toolbox
-Raspberry Pi – sterowanie silnikami i czujnikami
-Repozytorium z pakietem sterowania silnikami i czujnikami:
-https://github.com/MularX/Motor_control
-Połączenie SSH
-Bashssh -Y user@ip
-Uruchamianie na Raspberry Pi
-Silniki:
-Bashros2 run motor_control ros_control
-Lidar (RPLIDAR):
-Bashros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttyUSB0 -p serial_baudrate:=256000
-Lidar – tryb Standard:
-Bashros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttyUSB0 -p serial_baudrate:=256000 -p scan_mode:=Standard
-IMU + Extended Kalman Filter:
-Bashros2 launch motor_control robot_imu_ekf_launch.py
-Czujniki ultradźwiękowe:
-Bashros2 run motor_control ultrasonic_scan
-Workspace na PC (Sentinel_ws)
-Repozytorium:
-https://github.com/MularX/Sentinel_ws
-Bashcd Sentinel_ws
+```
+
+### 2. Automatyzacja Środowiska
+Aby środowisko ROS 2 i workspace ładowały się automatycznie przy każdym starcie terminala, dodaj poniższe linie do pliku `~/.bashrc`:
+
+```bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
+### 3. Instalacja Zależności
+Zainstaluj niezbędne narzędzia oraz pakiety nawigacyjne:
+
+```bash
+sudo apt update && sudo apt install -y \
+  python3-colcon-common-extensions \
+  python3-rosdep \
+  git \
+  ros-humble-navigation2 \
+  ros-humble-nav2-bringup \
+  ros-humble-slam-toolbox
+```
+
+---
+
+## 🍓 Raspberry Pi (Hardware)
+*Komendy uruchamiane bezpośrednio na robocie (SSH: `ssh -Y user@ip`).*
+**Repozytorium sterowników:** [Motor_control](https://github.com/MularX/Motor_control)
+
+### Uruchamianie modułów sprzętowych:
+
+* **Silniki (Main Control):**
+    ```bash
+    ros2 run motor_control ros_control
+    ```
+* **Lidar (RPLidar):**
+    ```bash
+    ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttyUSB0 -p serial_baudrate:=256000 -p scan_mode:=Standard
+    ```
+* **IMU + EKF (Filtracja danych):**
+    ```bash
+    ros2 launch motor_control robot_imu_ekf_launch.py
+    ```
+* **Czujniki Ultradźwiękowe:**
+    ```bash
+    ros2 run motor_control ultrasonic_scan
+    ```
+
+---
+
+## 💻 Sentinel Workspace (PC)
+Główne repozytorium: [Sentinel_ws](https://github.com/MularX/Sentinel_ws/tree/main)
+
+### Budowanie i start systemu:
+```bash
+cd Sentinel_ws
 colcon build --symlink-install
 source install/setup.bash
-Uruchomienie całego robota:
-Bashros2 launch sentinel launch_robot.launch.py
-RViz:
-Bashrviz2
-SLAM
-Bashros2 launch slam_toolbox online_async_launch.py
-Sterowanie ręczne (teleop)
-Bashros2 run teleop_twist_keyboard teleop_twist_keyboard
-Zapis mapy
-Bashros2 run nav2_map_server map_saver_cli --free 0.15 --fmt png -f ./maps/map
-Lokalizacja na istniejącej mapie
-Map server:
-Bashros2 run nav2_map_server map_server --ros-args -p yaml_filename:=/home/user/maps/map.yaml
-Bashros2 lifecycle set /map_server configure
-ros2 lifecycle set /map_server activate
-W RViz:
+ros2 launch sentinel launch_robot.launch.py
+```
 
-Fixed Frame: map
-Topic /map → Durability: Transient Local
+### Sterowanie i Wizualizacja:
+* **Wizualizacja:** `rviz2`
+* **Sterowanie klawiaturą:**
+    ```bash
+    ros2 run teleop_twist_keyboard teleop_twist_keyboard
+    ```
 
-Pełne uruchomienie lokalizacji (Nav2):
-Bashros2 launch nav2_bringup localization_launch.py map:=./maps/map.yaml use_sim_time:='False'
-Nawigacja
-Bashros2 launch nav2_bringup navigation_launch.py use_sim_time:='False'
-Lub dedykowany launch file:
-Bashros2 launch sentinel_control navigation_launch.py
-Autonomiczne mapowanie
-Bashros2 launch sentinel_control autonomous_mapping_launch.py
+---
+
+## 🗺️ SLAM i Nawigacja
+
+### Tworzenie i zapisywanie mapy
+1.  **Uruchomienie SLAM:**
+    ```bash
+    ros2 launch slam_toolbox online_async_launch.py
+    ```
+2.  **Zapisanie gotowej mapy:**
+    ```bash
+    ros2 run nav2_map_server map_saver_cli --free 0.15 --fmt png -f ./maps/map
+    ```
+
+### Lokalizacja i Autonomia
+Aby wczytać mapę i uruchomić nawigację:
+
+1.  **Start serwerów:**
+    ```bash
+    ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=/home/user/map.yaml
+    ros2 lifecycle set /map_server configure
+    ros2 lifecycle set /map_server activate
+    ```
+2.  **Uruchomienie Navigation2:**
+    ```bash
+    ros2 launch nav2_bringup navigation_launch.py use_sim_time:='False'
+    ```
+3.  **Autonomiczne Mapowanie:**
+    ```bash
+    ros2 launch sentinel_control autonomous_mapping_launch.py
+    ```
+
+> **💡 Konfiguracja RViz:** Ustaw `Fixed Frame` na `/map`. W ustawieniach tematu `/map` zmień parametr `Durability` na **Transient Local**, aby dane mapy zostały poprawnie wyświetlone.
+
+---
+*Projekt Sentinel – 2025*
